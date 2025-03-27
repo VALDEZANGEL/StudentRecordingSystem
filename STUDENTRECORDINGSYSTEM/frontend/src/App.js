@@ -41,11 +41,6 @@ const App = () => {
       <h1>Student Recording System</h1>
       <StudentForm addStudent={addStudent} />
       <StudentList students={students} />
-      <img
-        src="https://www.paterostechnologicalcollege.edu.ph/ASSETS/IMAGES/LOGO/logo-ptc.png"
-        alt="PTC Logo"
-        className="ptc-logo"
-      />
     </div>
   );
 };
